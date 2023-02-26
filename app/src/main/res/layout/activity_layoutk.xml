@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.mozhimen.uicorektest.layoutk.LayoutKActivity">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Btn_Style"
+                android:onClick="goLayoutKGridFill"
+                android:text="goLayoutKGridFill"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Btn_Style"
+                android:onClick="goLayoutKGridFillMove"
+                android:text="goLayoutKGridFillMove"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Btn_Style"
+                android:onClick="goLayoutKTimeLine"
+                android:text="goLayoutKTimeLine"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
