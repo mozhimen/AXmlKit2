@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--layoutk-->
+    <declare-styleable name="LayoutKTextForm">
+        <attr name="layoutKTextForm_isRequired" format="boolean" />
+        <attr name="layoutKTextForm_requiredIconPos" format="enum">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="layoutKTextForm_label" format="string|reference" />
+        <attr name="layoutKTextForm_labelTextSize" format="dimension|reference" />
+        <attr name="layoutKTextForm_labelColor" format="color|reference" />
+        <attr name="layoutKTextForm_labelMarginLeft" format="dimension|reference" />
+        <attr name="layoutKTextForm_labelMarginRight" format="dimension|reference" />
+        <attr name="layoutKTextForm_labelWidth" format="dimension|reference" />
+        <attr name="layoutKTextForm_textColor" format="color|reference" />
+        <attr name="layoutKTextForm_textHint" format="string|reference" />
+        <attr name="layoutKTextForm_textSize" format="dimension|reference" />
+        <attr name="layoutKTextForm_borderBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayoutKTextEditForm">
+        <attr name="layoutKTextEditForm_isRequired" format="boolean" />
+        <attr name="layoutKTextEditForm_requiredIconPos" format="enum">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="layoutKTextEditForm_label" format="string|reference" />
+        <attr name="layoutKTextEditForm_labelTextSize" format="dimension|reference" />
+        <attr name="layoutKTextEditForm_labelColor" format="color|reference" />
+        <attr name="layoutKTextEditForm_labelMarginLeft" format="dimension|reference" />
+        <attr name="layoutKTextEditForm_labelMarginRight" format="dimension|reference" />
+        <attr name="layoutKTextEditForm_labelWidth" format="dimension|reference" />
+        <attr name="layoutKTextEditForm_editHint" format="string|reference" />
+        <attr name="layoutKTextEditForm_editType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+            <enum name="textPassword" value="2" />
+            <enum name="numberPassword" value="3" />
+        </attr>
+        <attr name="layoutKTextEditForm_editColor" format="color|reference" />
+        <attr name="layoutKTextEditForm_editSize" format="dimension|reference" />
+        <attr name="layoutKTextEditForm_borderBackground" format="reference" />
+        <attr name="layoutKTextEditForm_borderBackgroundHasFocus" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayoutKTimeLine">
+        <!--时间轴偏移值-->
+        <attr name="layoutKTimeLine_lineMarginOffset" format="dimension|reference" />
+        <!--时间轴动态调整值-->
+        <attr name="layoutKTimeLine_lineDynamicOffset" format="dimension|reference" />
+        <!--线宽-->
+        <attr name="layoutKTimeLine_lineWidth" format="dimension|reference" />
+        <!--线的颜色-->
+        <attr name="layoutKTimeLine_lineColor" format="color|reference" />
+        <!--时间轴的gravity-->
+        <attr name="layoutKTimeLine_lineGravity">
+            <enum name="center" value="0" />
+            <enum name="left" value="2" />
+            <enum name="top" value="1" />
+            <enum name="right" value="4" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <!--点的大小-->
+        <attr name="layoutKTimeLine_pointSize" format="dimension|reference" />
+        <!--点的颜色-->
+        <attr name="layoutKTimeLine_pointColor" format="color|reference" />
+        <!--图标-->
+        <attr name="layoutKTimeLine_pointIconSrc" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayoutKSpinnerForm">
+        <attr name="layoutKSpinnerForm_isRequired" format="boolean" />
+        <attr name="layoutKSpinnerForm_requiredIconPos" format="enum">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="layoutKSpinnerForm_label" format="string|reference" />
+        <attr name="layoutKSpinnerForm_labelTextSize" format="dimension|reference" />
+        <attr name="layoutKSpinnerForm_labelColor" format="color|reference" />
+        <attr name="layoutKSpinnerForm_labelMarginLeft" format="dimension|reference" />
+        <attr name="layoutKSpinnerForm_labelMarginRight" format="dimension|reference" />
+        <attr name="layoutKSpinnerForm_labelWidth" format="dimension|reference" />
+        <!--StringArray 字符串数组-->
+        <attr name="layoutKSpinnerForm_spinnerEntries" format="reference" />
+        <!--layout item布局-->
+        <attr name="layoutKSpinnerForm_spinnerItemLayout" format="reference" />
+        <attr name="layoutKSpinnerForm_borderBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayoutKGridFill">
+        <attr name="layoutKGridFill_gridRowCount" format="integer" />
+        <attr name="layoutKGridFill_gridColumnCount" format="integer" />
+        <attr name="layoutKGridFill_gridColor" format="color|reference" />
+        <attr name="layoutKGridFill_cellDefaultColor" format="color|reference" />
+        <attr name="layoutKGridFill_cellHoverColor" format="color|reference" />
+        <attr name="layoutKGridFill_cellSelectColor" format="color|reference" />
+        <attr name="layoutKGridFill_lineColor" format="color|reference" />
+        <attr name="layoutKGridFill_innerLineWidth" format="dimension|reference" />
+        <attr name="layoutKGridFill_outerLineWidth" format="dimension|reference" />
+    </declare-styleable>
+</resources>

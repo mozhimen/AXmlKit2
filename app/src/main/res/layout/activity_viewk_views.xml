@@ -72,7 +72,7 @@
                 android:layout_height="200dp"
                 app:cardCornerRadius="12dp">
 
-                <com.mozhimen.uicorek_pro.viewk.ViewKSignature
+                <com.mozhimen.xmlk2.viewk.ViewKSignature
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     app:viewKSignature_lineWidth="2dp" />

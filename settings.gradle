@@ -14,10 +14,42 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "UiCoreKit_Pro"
+rootProject.name = "AXmlKit2"
 include ':app'
-include ':uicorek_pro'
-include ':SwiftKit'
-project(':SwiftKit').projectDir = new File("C:\\Users\\mozhimen\\Documents\\GitHub\\SwiftKit")
-include ':SwiftKit:basick'
-include ':SwiftKit:uicorek'
+include ':imagek'
+include ':layoutk'
+include ':viewk'
+//ALibKit_Google
+include ':ALibKit_Google'
+project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
+include ':ALibKit_Google:material'
+//ALibKit_Jetpack
+include ':ALibKit_Jetpack'
+project(':ALibKit_Jetpack').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetpack")
+include ':ALibKit_Jetpack:core'
+include ':ALibKit_Jetpack:annotation'
+include ':ALibKit_Jetpack:databinding'
+//ALibKit_Jetbrains
+include ':ALibKit_Jetbrains'
+project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
+include ':ALibKit_Jetbrains:kotlin_stdlib'
+include ':ALibKit_Jetbrains:kotlinx_coroutines'
+//KUtilKit
+include ':KUtilKit'
+project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
+include ':KUtilKit:android'
+include ':KUtilKit:kotlin'
+//ASwiftKit
+include ':ASwiftKit'
+project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
+include ':ASwiftKit:basick'
+include ':ASwiftKit:xmlk'
+//AAnimKit
+include ':AAnimKit'
+project(':AAnimKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAnimKit")
+include ':AAnimKit:builder'
+//AXmlKit
+include ':AXmlKit'
+project(':AXmlKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit")
+include ':AXmlKit:layoutk'
+

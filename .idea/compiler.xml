@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="AXmlKit2.AAnimKit.animk_builder" target="17" />
+      <module name="UiCoreKit_Pro.AAnimKit.animk_builder" target="17" />
+      <module name="UiCoreKit_Pro.ALibKit_Google.material" target="17" />
+      <module name="UiCoreKit_Pro.ALibKit_Jetbrains.kotlin_stdlib" target="17" />
+      <module name="UiCoreKit_Pro.ALibKit_Jetbrains.kotlinx_coroutines" target="17" />
+      <module name="UiCoreKit_Pro.ALibKit_Jetpack.annotation" target="17" />
+      <module name="UiCoreKit_Pro.ALibKit_Jetpack.core" target="17" />
+      <module name="UiCoreKit_Pro.app" target="17" />
+      <module name="UiCoreKit_Pro.ASwiftKit.basick" target="17" />
+      <module name="UiCoreKit_Pro.ASwiftKit.xmlk" target="17" />
+      <module name="UiCoreKit_Pro.AXmlKit.layoutk" target="17" />
+      <module name="UiCoreKit_Pro.imagek" target="17" />
+      <module name="UiCoreKit_Pro.layoutk" target="17" />
+      <module name="UiCoreKit_Pro.uicorek_pro" target="17" />
+      <module name="UiCoreKit_Pro.viewk" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

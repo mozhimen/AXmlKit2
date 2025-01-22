@@ -1,7 +1,7 @@
 ext {
     android = [
-            compileSdk     : 33,
-            applicationId  : "com.mozhimen.uicorekprotest",
+            compileSdk     : 34,
+            applicationId  : "com.mozhimen.uicorekpro.test",
             minSdk         : 21,
             targetSdk      : 33,
             versionCode    : 1,
