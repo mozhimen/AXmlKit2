@@ -3,6 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="AXmlKit2.AAnimKit.animk_builder" target="17" />
+      <module name="AXmlKit2.imagek" target="17" />
+      <module name="AXmlKit2.layoutk" target="17" />
+      <module name="AXmlKit2.spotlight" target="17" />
+      <module name="AXmlKit2.viewk" target="17" />
       <module name="UiCoreKit_Pro.AAnimKit.animk_builder" target="17" />
       <module name="UiCoreKit_Pro.ALibKit_Google.material" target="17" />
       <module name="UiCoreKit_Pro.ALibKit_Jetbrains.kotlin_stdlib" target="17" />

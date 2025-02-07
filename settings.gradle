@@ -16,9 +16,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "AXmlKit2"
 include ':app'
-include ':imagek'
-include ':layoutk'
-include ':viewk'
+include ':brvah'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
@@ -52,4 +50,5 @@ include ':AAnimKit:builder'
 include ':AXmlKit'
 project(':AXmlKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit")
 include ':AXmlKit:layoutk'
+include ':AXmlKit:basic'
 
