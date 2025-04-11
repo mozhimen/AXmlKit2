@@ -42,6 +42,7 @@ include ':ASwiftKit'
 project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
 include ':ASwiftKit:xmlk'
+include ':ASwiftKit:uik'
 //AAnimKit
 include ':AAnimKit'
 project(':AAnimKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAnimKit")
@@ -52,3 +53,4 @@ project(':AXmlKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit")
 include ':AXmlKit:layoutk'
 include ':AXmlKit:basic'
 
+include ':bannerviewpager'

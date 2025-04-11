@@ -1,0 +1,2 @@
+    -keep class androidx.recyclerview.widget.**{*;}
+    -keep class androidx.viewpager2.widget.**{*;}
